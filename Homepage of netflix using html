@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="netflix-logo.png" alt="Netflix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Netflix</h1>
+            <p>Watch your favorite movies, TV shows, and more.</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section class="featured">
+        <!-- Add featured content here (movie posters, TV shows, etc.) -->
+    </section>
+
+    <section class="footer">
+        <p>&copy; 2023 Netflix Clone</p>
+    </section>
+</body>
+</html>
