@@ -1,0 +1,13 @@
+function convertTemperature() {
+    const inputTemperature = parseFloat(document.getElementById("inputTemperature").value);
+    const unit = document.getElementById("unit").value;
+    let result;
+
+    if (unit === "celsius") {
+        result = (inputTemperature * 9/5) + 32;
+    } else {
+        result = (inputTemperature - 32) * 5/9;
+    }
+
+    document.getElementById("result").innerHTML = `Result: ${result.toFixed(2)} degrees ${unit === "celsius" ? "Fahrenheit" : "Celsius"}`;
+}
