@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PAGIDISETTI TEJASWI</h1>
+        <p>Web Developer & Designer</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio website! I'm a passionate web developer and designer with a strong background in HTML, CSS, and JavaScript. I love creating beautiful and functional websites that leave a lasting impression.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>BOUNCING BALL</h3>
+            <p>Bouncing ball is a fun puzzle game where you have to match coloured 
+balls.</p>
+        </div>
+        <div class="project">
+            <h3>IMAGE CAPTIONING USING DEEP LEARNING</h3>
+            <p>Image caption generates is a process of recognizing the context of an image
+and annotating it with relevant captions using deep learning.</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to email me at <a href="mailto:your@email.com">ptejaswi.135@email.com</a>.</p>
+    </section>
+</body>
+</html>
